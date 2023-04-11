@@ -16,6 +16,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::initWindow()
 {
+    this->showMaximized();
     mdiArea = new QMdiArea();
     setCentralWidget(mdiArea);
     QDockWidget *dockLeft1=new QDockWidget(tr("左边窗口1"),this);
@@ -32,3 +33,5 @@ void MainWindow::initWindow()
     addDockWidget(Qt::BottomDockWidgetArea,dockBottom2);
     QMdiArea *test=new QMdiArea(mdiArea);
 }
+
+
