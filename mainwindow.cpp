@@ -30,4 +30,6 @@ void MainWindow::initWindow()
     addDockWidget(Qt::BottomDockWidgetArea,dockBottom1);
     QDockWidget *dockBottom2=new QDockWidget(tr("底边窗口2"),this);
     addDockWidget(Qt::BottomDockWidgetArea,dockBottom2);
+    QMdiArea *test=new QMdiArea(mdiArea);
+//    test->addSubWindow();
 }
