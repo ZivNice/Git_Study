@@ -5,6 +5,8 @@
 #include<QDockWidget>
 #include<QLabel>
 #include<QMdiArea>
+#include<QApplication>
+#include<imgpreviewwin.h>
 namespace Ui {
 class MainWindow;
 }

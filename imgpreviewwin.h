@@ -7,11 +7,20 @@
 #include<QDebug>
 #include<QHBoxLayout>
 #include<QImage>
+#include<QString>
+#include <QObject>
 
-class ImgPreviewWin
+class CreateImageShow
+{
+    public:
+
+        void createSingeImgShow();
+};
+class ImgPreviewWin: public QWidget
 {
 public:
-    ImgPreviewWin();
+    ImgPreviewWin(QWidget *parent);
+    void createSingeImgShow();
 };
 
 #endif // IMGPREVIEWWIN_H
