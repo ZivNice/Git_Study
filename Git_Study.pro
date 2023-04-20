@@ -25,6 +25,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+<<<<<<< HEAD
         main.cpp \
         mainwindow.cpp \
     imgpreviewwin.cpp
@@ -32,6 +33,15 @@ SOURCES += \
 HEADERS += \
         mainwindow.h \
     imgpreviewwin.h
+=======
+        cpumemorylabel.cpp \
+        main.cpp \
+        mainwindow.cpp
+
+HEADERS += \
+        cpumemorylabel.h \
+        mainwindow.h
+>>>>>>> 34975f6 (A new class to display the use of CPU)
 
 FORMS += \
         mainwindow.ui

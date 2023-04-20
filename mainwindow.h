@@ -15,8 +15,14 @@ class MainWindow : public QMainWindow
 
 public:
     explicit MainWindow(QWidget *parent = nullptr);
+<<<<<<< HEAD
     ~MainWindow();
     const QString getMemory();
+=======
+    //获取CPU信息
+//    const QString getMemory();
+    ~MainWindow();
+>>>>>>> 34975f6 (A new class to display the use of CPU)
 
 private:
     Ui::MainWindow *ui;
