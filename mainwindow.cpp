@@ -6,7 +6,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    qDebug()<<"this is ";
+    qDebug()<<"Millet came at 16:12, October 17 , 2023";
 }
 
 MainWindow::~MainWindow()
